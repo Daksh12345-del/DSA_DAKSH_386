@@ -30,3 +30,4 @@ void enqueue(int value)
     {
         cout << "Displaying all elements of queue" << endl;
     }
+}

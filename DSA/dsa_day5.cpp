@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
 // function definition
 // int sum(int a, int b) // Correctly declares parameters 'a' and 'b'

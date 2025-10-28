@@ -63,7 +63,8 @@
         "optional": "cpp",
         "sstream": "cpp",
         "unordered_map": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "DAY1.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
