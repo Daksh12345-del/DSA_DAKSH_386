@@ -6,17 +6,17 @@
 //   left shift<< means multiply by 2
 //   right shift>> means divide by 2
 // */
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//   int a = 2, b = 3;
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a = 2, b = 3;
 //   cout << (a & b) << endl;
 //   cout << (a | b) << endl;
 //   cout << (~a) << endl;
 //   cout << (a ^ b) << endl;
 //   cout << (a << 1) << endl; // left shift
-//   cout << (b >> 1) << endl; // right shift
+  cout << (b >> 1) << endl; // right shift
   
   // in negative numbers left shift and right shift works differently depends on compiler
   // increment and decrement operators
@@ -72,28 +72,28 @@
 
 //Prime number check
 
-#include <iostream>
-using namespace std;
-int main()
-{
-  int i,n,flag=0;
-  cin>>n;
-  for(i=2;i<=n-1;i++)
-  {
-    if(n%i==0)
-    {
-      flag=1;
-      break;
-    }
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int i,n,flag=0;
+//   cin>>n;
+//   for(i=2;i<=n-1;i++)
+//   {
+//     if(n%i==0)
+//     {
+//       flag=1;
+//       break;
+//     }
 
-    }
-    if(flag==0)
-    {
-      cout<<"prime number"<<endl;
-    }
-    else
-    {
-      cout<<"not a prime number"<<endl;
-  } 
+//     }
+//     if(flag==0)
+//     {
+//       cout<<"prime number"<<endl;
+//     }
+//     else
+//     {
+//       cout<<"not a prime number"<<endl;
+//   } 
 }
 // }
